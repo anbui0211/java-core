@@ -1,10 +1,13 @@
 package chapter6;
 
-public class SinhVien {
+public abstract class SinhVien {
     protected String id;
     protected String name;
     protected double price;
     protected double tax;
+
+    // Những class con nào kế thừa class này thì cần phải ghi đè phương thức này
+    abstract void TinhDiem();
 
     public SinhVien(String id, String name, double price, double tax) {
         this.id = id;

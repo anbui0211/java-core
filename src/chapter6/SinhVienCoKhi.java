@@ -8,4 +8,9 @@ public class SinhVienCoKhi extends SinhVien {
         this.skill = skill;
     }
 
+    @Override
+    void TinhDiem() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'TinhDiem'");
+    }
 }

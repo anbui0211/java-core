@@ -24,4 +24,10 @@ public class SinhVienIT extends SinhVien {
     public void info() {
         System.out.println("run info from child");
     }
+
+    @Override
+    void TinhDiem() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'TinhDiem'");
+    }
 }
