@@ -6,4 +6,5 @@ public class Vehical {
     public void honk() {
         System.out.println("Tuut, tuut ...");
     }
+
 }
